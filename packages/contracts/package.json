@@ -1,0 +1,14 @@
+{
+  "name": "@spatial/contracts",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Vendored from the platform repo (packages/contracts). Do not edit here: see scripts/shared.mjs.",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "zod": "^4.6.5"
+  }
+}

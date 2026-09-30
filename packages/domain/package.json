@@ -1,0 +1,14 @@
+{
+  "name": "@spatial/domain",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Vendored from the platform repo (packages/domain). Do not edit here: see scripts/shared.mjs.",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "dependencies": {
+    "jpeg-js": "^0.4.4"
+  }
+}
